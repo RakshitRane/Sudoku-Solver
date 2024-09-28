@@ -461,13 +461,13 @@ def main():
 
     difficulty_score = rate_difficulty(sudoku_board)
 
-    print(f"Puzzle Difficulty Score: {difficulty_score}")
-
     start_time = time.time()    # Start the time
 
     if solve_sudoku(sudoku_board):
 
         # If solved, display the solved board and the time taken
+
+        print(f"Puzzle Difficulty Score: {difficulty_score}")
 
         print("\nSolved Sudoku:")
 
@@ -482,3 +482,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
