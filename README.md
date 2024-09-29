@@ -48,7 +48,7 @@ The difficulty of the Sudoku puzzle is rated using the following techniques:
 **Naked Triples** : 6 points each<br/><br/>
 **Hidden Triples** : 5 points each<br/><br/>
 
-The total difficulty score is the sum of these values. Thd weightage is given as such as mostly hidden are easier to find than naked.
+The total difficulty score is the sum of these values. The weightage is given as such as mostly hidden are easier to find than naked.
 
 ## Code Overview
 
